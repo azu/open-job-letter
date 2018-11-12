@@ -1,0 +1,16 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "@proofdict/proofdict": {
+      "dictURL": "https://azu.github.io/proof-dictionary/"
+    },
+    "preset-ja-technical-writing": {
+      "ja-no-weak-phrase": false,
+      "max-kanji-continuous-len": {
+        "allow": ["労働条件通知書"]
+      }
+    }
+  }
+}
