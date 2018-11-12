@@ -1,7 +1,7 @@
 {
   "name": "open-job-letter",
   "version": "1.0.0",
-  "description": "[PR] Open Job Application Letter",
+  "description": "[PR] Open Job Letter",
   "homepage": "https://github.com/azu/open-job-letter",
   "bugs": {
     "url": "https://github.com/azu/open-job-letter/issues"
@@ -13,10 +13,13 @@
     "url": "https://github.com/azu/open-job-letter.git"
   },
   "scripts": {
+    "build": "static-gfm README.md -d build/index.html -t docs/template.html && cpy --parents \"resources/**/*.{jpg,png}\" build",
     "test": "textlint ./README.md"
   },
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^2.2.1",
+    "cpy-cli": "^2.0.0",
+    "static-gfm": "^1.0.2",
     "textlint": "^11.0.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-preset-ja-technical-writing": "^3.1.0"

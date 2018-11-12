@@ -9,12 +9,14 @@
     - GitHub: [@azu](https://github.com/azu)
     - Twitter: [@azu_re](https://twitter.com/azu_re)
     - Mail: [azuciao@gmail.com](mailto:azuciao@gmail.com)
-- 公開: 2018年11月12日
+- 公開: 2018年11月13日
 - 有効期限: 2018年12月5日
 
 ## Profile
 
 ウェブではazu(アズ)という名前で活動しています。
+
+### 仕事
 
 仕事では、ウェブサービスのフロントエンドと呼ばれる領域の設計/開発を行うことが多いです。
 開発だけではなく、フロントエンドの開発環境を改善する[FrontendOps](https://giamir.com/frontendops)と呼ばれる領域に関わっていることも多いです。具体的には、リポジトリ構造を整理するためにmonorepoの検討から導入、CI/CDの環境を構築しての自動化などを行いました。
@@ -28,9 +30,11 @@
 次の図でフロントエンドに関わる範囲で仕事でメインとしてやっていたことを挙げておきます。
 具体的なライブラリなどは省いたり、思いついたものを入れただけなので雰囲気です。
 
-![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](resources/group.png)
+![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](resources/img/group.png)
 
 <!-- textlint-enable -->
+
+### 個人
 
 個人では、[JavaScript Promiseの本](https://github.com/azu/promises-book)や[js-primer](https://github.com/asciidwango/js-primer)というJavaScriptの入門書を書いたりしています。また[JSer.info](https://jser.info/)というJavaScriptの情報サイトの運用や[textlint](https://textlint.github.io/)という自然言語の校正補助ツールの開発などを行っています。
 
@@ -119,7 +123,6 @@
 ## どうなりたいか
 
 作りたいものは個人で作ってしまうことが多いため、特に仕事として何をしたいか（何かを作りたい）はあまり持っていません。
-
 そのため、会社選びは自分がどういう状態になりたいかやそのときの興味の影響が大きいです。
 
 究極的にはあらゆる問題を解決してより便利になることが目的です。
@@ -229,7 +232,11 @@
 
 次のページに、以前DMが来たが答えるのが難しいと感じたいくつかの例を書いています。
 
-- [case-study/ignore-message.md](case-study/ignore-message.md)
+- [case-study/ignore-message.md](./case-study/ignore-message.md)
+
+また簡単なチェックリストを置いておきます。
+
+- [CHECK_LIST.md](./CHECK_LIST.md)
 
 ## 連絡手段
 
