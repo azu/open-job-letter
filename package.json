@@ -1,23 +1,13 @@
 {
   "name": "open-job-letter",
   "version": "1.0.0",
-  "description": "[PR] 求職記事",
+  "description": "[PR] Open Job Application Letter",
   "homepage": "https://github.com/azu/open-job-letter",
   "bugs": {
     "url": "https://github.com/azu/open-job-letter/issues"
   },
   "license": "MIT",
   "author": "azu",
-  "files": [
-    "bin/",
-    "lib/",
-    "src/"
-  ],
-  "main": "lib/open-job-letter.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/azu/open-job-letter.git"
