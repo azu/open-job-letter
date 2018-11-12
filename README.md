@@ -243,7 +243,7 @@
 - [ ] GitHub Issues
     - Publicな範囲で話ができる
 - [ ] [Bosyu](https://bosyu.me/)
-    - 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました｜坪田 朋](https://blog.tsubotax.com/n/n612d8ba662d7)
+    - 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました](https://blog.tsubotax.com/n/n612d8ba662d7)
     - 非公開で連絡ができる(Twitterでのログインが必要)
     - DMの送信依頼を非公開でするイメージです
 
