@@ -1,0 +1,92 @@
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>azu/open-job-letter</title>
+    {{styles}}
+    <!--
+        意図しない外部流入を回避する目的
+        http://b.hatena.ne.jp/help/entry/nocomment
+     -->
+    <link rel="author" href="http://www.hatena.ne.jp/efcl/"/>
+    <base target="_blank"/>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .repo-nav {
+            background-color: #fafbfc;
+            padding-bottom: 0;
+        }
+
+        .repo-nav h1 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .container-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 980px;
+            padding: 1.5em;
+        }
+
+
+        .meta-container {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            border-bottom: 1px solid #e1e4e8;
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .meta-repo {
+            color: #586069;
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 635px;
+        }
+
+        .meta-buttons {
+        }
+    </style>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+<header class="repo-nav">
+    <div class="container-wrapper meta-container">
+        <h1 class="meta-repo">
+            <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16"
+                 aria-hidden="true">
+                <path fill-rule="evenodd"
+                      d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path>
+            </svg>
+            <span class="author" itemprop="author"><a href="https://github.com/azu">azu</a></span>
+            <span class="path-divider">/</span>
+            <strong itemprop="name"><a href=https://github.com/azu/open-job-letter">open-job-letter </a> </strong>
+        </h1>
+        <div class="meta-buttons">
+            <a class="github-button" href="https://github.com/azu/open-job-letter/subscription" data-size="large"
+               data-show-count="true" aria-label="Watch azu/open-job-letter on GitHub">Watch</a>
+            <a class="github-button" href="https://github.com/azu/open-job-letter" data-size="large"
+               data-show-count="true" aria-label="Star azu/open-job-letter on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/azu/open-job-letter/fork" data-size="large"
+               data-show-count="true" aria-label="Fork azu/open-job-letter on GitHub">Fork</a>
+        </div>
+    </div>
+</header>
+<div class="container-wrapper">
+    <article class="markdown-body">
+        {{body}}
+    </article>
+</div>
+</body>
+
+</html>
