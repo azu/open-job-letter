@@ -238,6 +238,8 @@
 直接DMをもらうと上手くハンドリングできなくなるため、
 次のどれかを通して、[@azu_re](https://twitter.com/azu_re)からDMする形にしたいと思います。
 
+:memo: 反応に早いと思われる並び順で書いています。
+
 - [ ] Twitter Reply
     - Publicな範囲で話ができる
 - [ ] GitHub Issues
@@ -246,6 +248,7 @@
     - 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました](https://blog.tsubotax.com/n/n612d8ba662d7)
     - 非公開で連絡ができる(Twitterでのログインが必要)
     - DMの送信依頼を非公開でするイメージです
+
 
 ### :memo: 注意事項
 
