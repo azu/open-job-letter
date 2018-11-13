@@ -281,6 +281,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 ### :memo: 注意事項
 
 - [@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMをオープンにしておく必要があります
+    - [About Direct Messages](https://help.twitter.com/en/using-twitter/direct-messages#receive)
 - 面識がない場合はどうしても慎重になるため、返信に数日以上かかる場合があります
 - 必ず返信するとは限らないことはご了承ください
 - その他の方法でもっとスムーズに情報交換できそうと思える手段がある場合は教えてください
