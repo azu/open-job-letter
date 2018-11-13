@@ -280,7 +280,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 ### :memo: 注意事項
 
-- [@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMをオープンにしておく必要があります
+- [@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMを誰からも受け取れるようにしておく必要があります
     - [About Direct Messages](https://help.twitter.com/en/using-twitter/direct-messages#receive)
 - 面識がない場合はどうしても慎重になるため、返信に数日以上かかる場合があります
 - 必ず返信するとは限らないことはご了承ください
