@@ -87,6 +87,17 @@
         {{body}}
     </article>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js" integrity="sha256-sulJsGHNj4Kxq0cT7TRRa9K4RNljWjQaDLXGBRTbhUQ="
+        crossorigin="anonymous"></script>
+<script>
+    anchors.options = {
+        placement: "left",
+        visible: "always",
+        icon: "#",
+        class: "anchor-mark"
+    };
+    anchors.add(".markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6");
+</script>
 </body>
 
 </html>
