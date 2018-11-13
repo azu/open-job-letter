@@ -57,7 +57,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 - OSS活動のほうが知られているので、求職記事もオープンでやったほうが効率的だと思った
 
 能動的に求人記事を探す場合には[Wantedly](https://www.wantedly.com/)が掲載数の多いサービスだと思います。
-しかし、Wantedlyでは[フロントエンド](https://www.wantedly.com/?type=mixed&page=1&occupation_types%5B%5D=engineer&hiring_types%5B%5D=mid_career&keywords%5B%5D=%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89)の求人だけ2000件以上あります。
+しかし、Wantedlyでは[フロントエンド](https://www.wantedly.com/?type=mixed&page=1&occupation_types%5B%5D=engineer&hiring_types%5B%5D=mid_career&keywords%5B%5D=%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89)の求人だけでも2000件以上あります。
 このうち半分以上は眺めましたが、求人タイトルだけではどのような事業や課題を持っているかが把握できない場合も多く、中身をすべて見るのは時間的に難しいと考え諦めました。
 
 「企業を見ているポイント」で後述しますが、使っている技術よりもその企業がもつ課題や成長性(企業、個人どちらも含む)などを重要視しています。多くの求人記事のタイトルは、使っている技術や事業のジャンル程度の情報しかないことが多いです。
