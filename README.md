@@ -241,7 +241,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 また簡単なチェックリストを置いておきます。
 
-- [CHECK_LIST.md](https://github.com/azu/open-job-letter/tree/master/CHECK_LIST.md)
+- [CHECKLIST.md](https://github.com/azu/open-job-letter/tree/master/CHECKLIST.md)
 
 ## 連絡手段
 
