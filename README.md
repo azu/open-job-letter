@@ -256,9 +256,9 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 - Publicな範囲で話ができる
 
-次のTweetなどに対してリプライで連絡してください。
+次のTweetなどに対してリプライで[@azu_re](https://twitter.com/azu_re)へ連絡してください。
 
-- [ ] Tweet
+- [ ] Tweetを埋め込む
 
 ### GitHub Issues
 
