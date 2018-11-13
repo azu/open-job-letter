@@ -9,7 +9,7 @@ after_success: :
     --iv "$encrypted_d6f906c6046a_iv" \
     --path-encrypted-key ".travis/github_deploy_key.enc"
   - $(npm bin)/update-branch --commands "npm run build" \
-                       --commit-message "Deploy GitBook build [skip ci]" \
+                       --commit-message "Deploy website [skip ci]" \
                        --directory "build" \
                        --distribution-branch "gh-pages" \
                        --source-branch "master"
