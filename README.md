@@ -276,7 +276,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 次のBosyuに対して連絡してください。
 
-- [ ] link
+- <https://bosyu.me/users/azu_re/wants/7395>
 
 ### :memo: 注意事項
 
