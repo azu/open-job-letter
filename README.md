@@ -250,7 +250,8 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 直接DMやメールをもらうと上手くハンドリングできなくなるため、
 次のどれかを通してから、[@azu_re](https://twitter.com/azu_re)からDMする形にしたいと思います。
 
-:memo: 反応に早いと思われる並び順で書いています。
+- :warning: 直接DMを行うのは避けていただけると幸いです。
+- :memo: 反応が早いと思われる順番で書いています。
 
 ### Twitter
 
