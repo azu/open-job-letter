@@ -31,7 +31,7 @@
 次の図でフロントエンドに関わる範囲で仕事でメインとしてやっていたことを挙げておきます。
 具体的なライブラリなどは省いたり、思いついたものを入れただけなので雰囲気です。
 
-![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](./resources/img/group.png)
+[![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](./resources/img/group.png)](./resources/img/group.png)
 
 <!-- textlint-enable -->
 
