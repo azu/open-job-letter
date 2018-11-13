@@ -1,6 +1,6 @@
 # Open Job Application Letter [![Build Status](https://travis-ci.org/azu/open-job-letter.svg?branch=master)](https://travis-ci.org/azu/open-job-letter)
 
-これは求人記事（Hire Meな記事）です。
+これは求職記事（Hire Meな記事）です。
 無関係な方はスルーしてください。
 
 ## ステータス
