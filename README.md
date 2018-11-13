@@ -285,7 +285,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 - [@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMを誰からも受け取れるようにしておく必要があります
     - [About Direct Messages](https://help.twitter.com/en/using-twitter/direct-messages#receive)
-    - Twitter以外にもメールやWantedlyのチャットなどでも問題なので、希望の手段をおしえてください
+    - Twitter以外にもメールやWantedlyのチャットなどでも可能なので、希望の手段をおしえてください
 - 面識がない場合はどうしても慎重になるため、返信に数日以上かかる場合があります
 - 必ず返信するとは限らないことはご了承ください
 - その他の方法でもっとスムーズに情報交換できそうと思える手段がある場合は教えてください
