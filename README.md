@@ -23,15 +23,15 @@
 具体的には、リポジトリ構造を整理するためにmonorepoの検討から導入、CI/CDの環境を構築しての自動化などを行いました。
 これに加えて開発の補助するライブラリやツールの作成、依存ライブラリの整備、パフォーマンスの計測の自動化や改善などを行っていました。
 
-課題や目的がある特定のチームに入り、開発や改善を行い、一段落したら別のチームへ移動するといったサイクルで活動していました（大体半年から1年程度のサイクル）。
-また、定期的に誰でも参加できる「JavaScript相談会」を開催し、業務を含めた技術的な問題を相談できる場所を設けるなど社内技術コミュニティもやっていました。これは特定のチーム/サービスではなく会社全体のフロントエンドを改善するという意識から行っていた活動です。
+課題や目的がある特定のチームに入り、開発や改善を行い、一段落したら別のチームへ移動するといったサイクルで活動していました（大体半年から1年半程度のサイクル）。
+また、定期的に誰でも参加できる「JavaScript相談会」を開催し、業務を含めた技術的な問題を相談できる場所を設けるなど社内技術コミュニティもやっていました。これは特定のチームや特定サービスではなく会社全体のフロントエンドを改善するという意識から行っていた活動です。
 
 <!-- textlint-disable -->
 
 次の図でフロントエンドに関わる範囲で仕事でメインとしてやっていたことを挙げておきます。
 具体的なライブラリなどは省いたり、思いついたものを入れただけなので雰囲気です。
 
-![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](resources/img/group.png)
+![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](./resources/img/group.png)
 
 <!-- textlint-enable -->
 
@@ -39,8 +39,11 @@
 
 個人では、[JavaScript Promiseの本](https://github.com/azu/promises-book)や[js-primer](https://github.com/asciidwango/js-primer)というJavaScriptの入門書を書いたりしています。また[JSer.info](https://jser.info/)というJavaScriptの情報サイトの運用や[textlint](https://textlint.github.io/)という自然言語の校正補助ツールの開発などを行っています。
 
+OSSは幅広くやっているので[Activity](https://github.com/azu)を見るのがわかりやすいですが、[hls.js](https://github.com/video-dev/hls.js)や[power-assert-js](https://github.com/power-assert-js)のコミッターなどをやっています。
+
 他の個人的な活動は次を参照してください。
 
+- ブログ: [Web Scratch](https://efcl.info/)
 - [勉強会での発表履歴](https://efcl.info/about/presentations.html)
 - [コミットしてるGitHub Organization](http://efcl.info/surl/github-activity/)
 - [SC22 ECMAScript Ad hoc委員会](http://azu.github.io/slide/2016/jser5years/sc22-ecmascript-ahodc.html)
@@ -57,14 +60,14 @@
 しかし、Wantedlyでは[フロントエンド](https://www.wantedly.com/?type=mixed&page=1&occupation_types%5B%5D=engineer&hiring_types%5B%5D=mid_career&keywords%5B%5D=%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89)の求人だけ2000件以上あります。
 このうち半分以上は眺めましたが、求人タイトルだけではどのような事業や課題を持っているかが把握できない場合も多く、中身をすべて見るのは時間的に難しいと考え諦めました。
 
-「企業を見ているポイント」で後述しますが、使っている技術よりもその企業/事業がもつ課題や成長性(企業、個人どちらも含む)などを重要視しています。多くの求人記事のタイトルは、使っている技術や事業のジャンル程度の情報しかないことが多いです。
+「企業を見ているポイント」で後述しますが、使っている技術よりもその企業がもつ課題や成長性(企業、個人どちらも含む)などを重要視しています。多くの求人記事のタイトルは、使っている技術や事業のジャンル程度の情報しかないことが多いです。
 そのため、[Wantedly](https://www.wantedly.com/)や[Forkwell Jobs](https://jobs.forkwell.com/)のような求人記事からマッチする企業を見つけるのは難しかったです。
 
 一方で、受動的に求職する場合には[転職ドラフト](https://job-draft.jp/)や各種サービスのスカウト機能があります。
 しかし、この場合もサービスに登録している求職者数や企業側のコストの問題から限界があります。
 また、機械的に送られたものなど目的と一致しないスカウトがくることもありました。
 
-自身がOSSなどPublicな場での活動が多いことを考慮すると、求職記事もPublicで書いたほうがマッチしやすいと考えたのがこのドキュメントを公開した理由です。この求職記事ではできる範囲で求職の目的や企業に期待することについてを公開しています。
+自身がOSSなどPublicな場での活動が多いことを考慮すると、求職記事もPublicで書いたほうがマッチしやすいと考えたのがこのドキュメントを公開した理由です。この求職記事ではできる範囲で求職の目的や企業に期待することを公開しています。
 
 このドキュメントを読んで興味をもった方は[連絡手段](#連絡手段)から連絡してください。
 
@@ -86,7 +89,7 @@
 根底には課題をテクノロジーで解決して便利になりたいという思いがあるため、B2Bサービスに限りませんが、新しい課題に取り組みたいと考えるようになったのが転職活動のきっかけです。
 （「テクノロジーで」としているのは、より少ない資源で大きな成果になる可能性が高いからです。技術以外で解決できる問題も多いですが、競合との差はテクノロジーとなる可能性が高いと考えているためです。）
 
-転職活動は10月ごろから行っており、次のセクションではそれらを踏まえた自己紹介や企業を見ているポイントについて書いていきます。また、既に退職済みであるため、このドキュメントは求職記事としています。
+転職活動は既に開始済みであるため、次のセクションではそれらを踏まえた自己紹介や企業を見ているポイントについて書いていきます。また、既に退職済みであるため、このドキュメントは求職記事としています。
 
 ## :arrow_up: やっていて苦ではないこと
 
@@ -121,7 +124,7 @@
 
 ## どうなりたいか
 
-作りたいものは個人で作ってしまうことが多いため、仕事として何をしたいか（何かを作りたい）は特に持っていません。
+作りたいものは個人で作ってしまうことが多いため、仕事として何をしたいか（何かを作りたい）に対するとくべつ強い意思はありません。
 そのため、会社選びは自分がどういう状態になりたいかやそのときの興味の影響が大きいです。
 
 究極的にはあらゆる問題を解決してより便利になることが目標です。
@@ -129,8 +132,8 @@
 
 ## 興味があるポイント
 
-次に10月時点での興味があったポイントを書き出しています。
-10月中にいくつかの企業を訪問しましたが、次のポイントのいずれかが詳しく調べる起点となっていました。
+次にドキュメント公開時点で興味があったポイントを書き出しています。
+既にいくつかの企業を調べ訪問しましたが、次のポイントのいずれかが詳しく調べる起点となっていました。
 
 ただし、知らなかったことでも興味を持てればそこから追求するタイプです。
 そのため、次のポイントは参考程度です。このドキュメントの目的の8割ぐらいは知らなかった企業と接点を持つために書いています。
@@ -226,35 +229,52 @@
 また、単に自分から話題を振るのが苦手なので、事前に話題を集める意味もあります。
 
 事前調査に時間を使うことが多いため「とりあえず」で話を聞きに行くのが難しいことをご了承ください。
-また連絡する際にはできるだけ企業や取り組みや課題に対する明確な情報とマッチ理由など添えていただけると幸いです。
+また連絡する際には、できるだけ取り組みや課題に対する明確な情報とマッチ理由など添えていただけると幸いです。
 もしくは、もっと気軽な話ができるような形態でやり取りを開始するのが望ましいと考えています。
 
 次のページに、以前DMが来たが答えるのが難しいと感じたいくつかの例を書いています。
 
-- [case-study/ignore-message.md](./case-study/ignore-message.md)
+- [case-study/ignore-message.md](https://github.com/azu/open-job-letter/tree/master/case-study/ignore-message.md)
 
 また簡単なチェックリストを置いておきます。
 
-- [CHECK_LIST.md](./CHECK_LIST.md)
+- [CHECK_LIST.md](https://github.com/azu/open-job-letter/tree/master/CHECK_LIST.md)
 
 ## 連絡手段
 
 興味がある方は次の手段で連絡をとってみてください。
 
-直接DMをもらうと上手くハンドリングできなくなるため、
+直接DMやメールをもらうと上手くハンドリングできなくなるため、
 次のどれかを通してから、[@azu_re](https://twitter.com/azu_re)からDMする形にしたいと思います。
 
 :memo: 反応に早いと思われる並び順で書いています。
 
-- [ ] Twitter Reply
-    - Publicな範囲で話ができる
-- [ ] GitHub Issues
-    - Publicな範囲で話ができる
-- [ ] [Bosyu](https://bosyu.me/)
-    - 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました](https://blog.tsubotax.com/n/n612d8ba662d7)
-    - 非公開で連絡ができる(Twitterでのログインが必要)
-    - DMの送信依頼を非公開でするイメージです
+### Twitter
 
+- Publicな範囲で話ができる
+
+次のTweetなどに対してリプライで連絡してください。
+
+- [ ] Tweet
+
+### GitHub Issues
+
+- Publicな範囲で話ができる
+
+次のリポジトリに対してIssueを立てて連絡してください。
+
+- [新しいIssueを作成する](https://github.com/azu/open-job-letter/issues/new)
+
+### [Bosyu](https://bosyu.me/)
+
+- 非公開で連絡ができる(Twitterでのログインが必要)
+- DMの送信依頼を非公開で行えるイメージです
+- 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました](https://blog.tsubotax.com/n/n612d8ba662d7)
+
+次のBosyuに対して連絡してください。
+
+
+- [ ] link
 
 ### :memo: 注意事項
 
@@ -265,7 +285,7 @@
 
 ## FAQ
 
-- [新しいIssueを作成する](https://github.com/azu/open-job-letter/issues/new)
+- [新しいIssueを作成して質問する](https://github.com/azu/open-job-letter/issues/new)
 
 ## License
 
