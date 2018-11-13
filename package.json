@@ -17,6 +17,7 @@
     "test": "textlint ./README.md"
   },
   "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1",
     "@proofdict/textlint-rule-proofdict": "^2.2.1",
     "cpy-cli": "^2.0.0",
     "static-gfm": "^1.0.2",
