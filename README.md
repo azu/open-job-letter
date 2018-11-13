@@ -258,7 +258,9 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 次のTweetなどに対してリプライで[@azu_re](https://twitter.com/azu_re)へ連絡してください。
 
-- [ ] Tweetを埋め込む
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">[PR] 現在求職活動中です。<br>普段OSSなどPublicな活動が多いため、求職記事をPublicに公開しました。<br>詳細は次のページにまとめてあります。<br><br>- <a href="https://t.co/mKRflxJoic">https://t.co/mKRflxJoic</a><br><br>詳細を読んで興味がでた方は、ドキュメントに書いてある連絡手段やリプライから、DMでのやりとりに移行できると嬉しいです。</p>&mdash; azu (@azu_re) <a href="https://twitter.com/azu_re/status/1062247833913315328?ref_src=twsrc%5Etfw">November 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### GitHub Issues
 
