@@ -19,6 +19,8 @@
 ### 仕事的な活動
 
 仕事では、ウェブサービスの[フロントエンド](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89)と呼ばれる領域の設計/開発を行うことが多いです。
+開発では既存の仕様との調整をしながら設計が必要となる大規模なリニューアルや特定の問題を抱えているプロジェクトの問題解決という形で参加することが多いです。リニューアルなどでは、サービスのドメインオーナーと話し合いながらどのように実現するかの設計から実装まで行っていました。
+
 また、フロントエンドの開発環境を改善する[FrontendOps](https://giamir.com/frontendops)と呼ばれる領域に関わっていることも多いです。
 具体的には、リポジトリ構造を整理するためにmonorepoの検討から導入、CI/CDの環境を構築しての自動化などを行いました。
 これに加えて開発の補助するライブラリやツールの作成、依存ライブラリの整備、パフォーマンスの計測の自動化や改善などを行っていました。
@@ -34,6 +36,8 @@
 [![仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL](./resources/img/group.png)](./resources/img/group.png)
 
 <!-- textlint-enable -->
+
+これらの仕事に関しては別のドキュメントでまとめたものがあるため、詳細が必要な方は[連絡手段](#連絡手段)から連絡した後のやり取りの中できいてみください。
 
 ### 個人的な活動
 
