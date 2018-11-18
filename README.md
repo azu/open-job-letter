@@ -285,6 +285,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 - 非公開で連絡ができる(Twitterでのログインが必要)
 - DMの送信依頼を非公開で行えるイメージです
 - 使い方: [SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました](https://blog.tsubotax.com/n/n612d8ba662d7)
+- :warning: 注意: Bosyuには文字数制限があるため、非公開なgistなどのスニペットサービスを併用するとよさそうです
 
 次のBosyuに対して連絡してください。
 
