@@ -1,0 +1,94 @@
+const { groupBy } = require("lodash");
+const schemeCategory10 = [
+    "#1f77b4",
+    "#ff7f0e",
+    "#2ca02c",
+    "#d62728",
+    "#9467bd",
+    "#8c564b",
+    "#e377c2",
+    "#7f7f7f",
+    "#bcbd22",
+    "#17becf"
+];
+module.exports = data => {
+    // label = 応募者.concat(リファラ) ラベル
+    // source = 応募者
+    // target = 応募者からリファラ
+    // value  = 応募者がリファラの数
+    const 応募者data = data.reduce((total, item) => {
+        // "応募者"が複数はそれぞれ別のアイテムに切り出す
+        item["応募者"].forEach(応募者 => {
+            total.push({
+                ...item,
+                応募者: 応募者
+            });
+        });
+        return total;
+    }, []);
+    const 応募者group = groupBy(応募者data, "応募者");
+    const stageLabels = [];
+    // 応募者名を先に詰める
+    Object.keys(応募者group).forEach(応募者 => {
+        // label:
+        stageLabels.push(応募者);
+    });
+    // [...stageLabels]
+    // <-> indexをあわせる
+    // [{ "Bosyu": 2, "Twitter": 1 }, ...] = stageLinks
+    const stageLinks = {};
+    Object.keys(応募者group).forEach((応募者, index) => {
+        // target:
+        const items = 応募者group[応募者];
+        const リファラgroup = groupBy(
+            items.reduce((total, item) => {
+                // "応募者"が複数はそれぞれ別のアイテムに切り出す
+                item["リファラ"].forEach(referrer => {
+                    total.push({
+                        リファラ: referrer
+                    });
+                });
+                return total;
+            }, []),
+            "リファラ"
+        );
+        Object.keys(リファラgroup).forEach(リファラ => {
+            stageLinks[stageLabels[index]] = Object.assign({}, stageLinks[stageLabels[index]], {
+                // "bosyu": 2
+                [リファラ]: リファラgroup[リファラ].length
+            });
+        });
+    });
+    /**
+     * { '上場':
+           { Bosyu: 4,
+             GitHub: 2,
+             'Twitter Reply': 2,
+             'Twitter DM': 3,
+             'その他': 1 },
+          '子会社': { GitHub: 2, Bosyu: 1 },
+          'C. レイター': { Bosyu: 1, 'Twitter DM': 1 },
+          'B. ミドル': { GitHub: 1, Bosyu: 3, 'Twitter Reply': 2, 'Twitter DM': 1 },
+          'A. アーリー': { 'Twitter Reply': 2, Bosyu: 3, Mail: 2, 'Twitter DM': 1 },
+          '0. シード': { Bosyu: 1, 'Twitter DM': 1 } }
+     */
+    const stageDimension = {
+        label: "応募者",
+        values: []
+    };
+    const referrerDimension = {
+        label: "応募方法",
+        values: []
+    };
+    const counts = [];
+    const colors = [];
+    Object.entries(stageLinks).forEach(([stageName, referrerObject], index) => {
+        Object.entries(referrerObject).forEach(([referrerName, referrerCount]) => {
+            colors.push(schemeCategory10[index]);
+            stageDimension.values.push(stageName);
+            referrerDimension.values.push(referrerName);
+            counts.push(referrerCount);
+        });
+    });
+    return { dimensions: [stageDimension, referrerDimension], counts, colors };
+};

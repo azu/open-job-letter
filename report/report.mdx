@@ -1,0 +1,266 @@
+# open-job-letter レポート
+
+[open-job-letter](http://azu.github.io/open-job-letter/)についてのレポートです。
+
+前半はそれぞれの項目ごとのデータ、後半はデータを組み合わせたグラフです。
+
+**注意事項**:
+
+- 統計的なデータではありません
+- このデータを一般化するには問題があります
+- [open-job-letter](http://azu.github.io/open-job-letter/)が細かく更新されていたため、応募方法はその影響を受けている可能性があります
+- 企業の特定を避けるために、データを加工しています
+    - 組み合わせデータを限定的にしているのも同じ理由です
+- 2018年12月時点での企業データを利用しています
+
+<details>
+<summary>データの加工について</summary>
+<ul>
+<li>データのフィールドに対していくつかのロールをつけています</li>
+<li>"識別子": そのフィードのみで企業名の特定が可能なもの</li>
+<li>"準識別子": 複数のフィールドの組み合わせで特定できる可能性があるもの</li>
+<li>"識別子"はそのままデータとして公開することはしていません。また内部的にハッシュ値に変換してから扱っています(主にユニーク化の処理のため利用される)</li>
+<li>"準識別子"はその準識別子間で同じ値の数が2以上となるように処理してから扱っています。2未満(つまり1つ)の場合は"その他"としてマスクしています</li>
+<li>また"準識別子"同士を組み合わせたデータそのものを扱わないようにしています</li>
+</ul>
+</details>
+
+## 応募企業数
+
+import { TotalApplications } from "./components/TotalApplications/TotalApplications.js"
+import { ValidApplications } from "./components/ValidApplications/ValidApplications.js"
+
+- 合計の応募企業数: <TotalApplications />社
+- 有効な応募企業数: <ValidApplications />社
+
+同一の企業が複数の応募をした場合には、(ハッシュ化された)企業名でユニーク化して1と数えています。
+
+<q>有効な応募企業数</q>は[連絡手段](https://azu.github.io/open-job-letter/#%E9%80%A3%E7%B5%A1%E6%89%8B%E6%AE%B5)に記載した応募方法を利用した企業数です。
+
+## 応募方法
+
+import { ApplicationsByReferrer } from "./components/ApplicationsByReferrer/ApplicationsByReferrer.js"
+
+<ApplicationsByReferrer />
+
+応募方法別の応募数です。
+
+[azu/open-job-letter](https://azu.github.io/open-job-letter/)では次の3種類の方法を[連絡手段](https://azu.github.io/open-job-letter/#%E9%80%A3%E7%B5%A1%E6%89%8B%E6%AE%B5)として設けていました。
+
+- Twitter Reply: [Tweet](https://twitter.com/azu_re/status/1062247833913315328)などに対してリプライでオープンに伝える
+- GitHub Issue: [リポジトリ](https://github.com/azu/open-job-letter)に[Issues](https://github.com/azu/open-job-letter/issues)を立ててオープンに伝える
+- [bosyu](https://bosyu.me/): [用意されたbosyu](https://bosyu.me/users/azu_re/wants/7395)に対して応募して非公開で伝える
+
+それ以外の方法で直接応募されたケースもあります。
+
+次のケースは[連絡手段](https://azu.github.io/open-job-letter/#%E9%80%A3%E7%B5%A1%E6%89%8B%E6%AE%B5)に注記していたように、応募としては範囲外ですが応募数としてはカウントしています。
+
+- Mail
+- Twitter DM
+- その他
+
+また、複数の手段で応募した企業もあるため重複してカウントされています。
+
+## 日付ごとの応募数
+
+import { ApplicationsByDate } from "./components/ApplicationsByDate/ApplicationsByDate.js"
+
+<ApplicationsByDate />
+
+日付ごとの応募数です。
+
+- 募集開始は[2018年11月13日 16:36](https://twitter.com/azu_re/status/1062247833913315328)ごろ
+
+## 応募した企業のカテゴリ
+
+import { ApplicationsByBusinessType } from "./components/ApplicationsByBusinessType/ApplicationsByBusinessType.js"
+
+<ApplicationsByBusinessType />
+
+応募した企業のプロダクト、サービスなどをもとにしたカテゴリです。
+
+- 全体で1つしかないカテゴリは"その他"へ統合されています
+    - カテゴリそのものが特徴的な企業や複数のサービスを提供していることがあるため
+
+## 応募者のポジション
+
+import { ApplicationsByPosition } from "./components/ApplicationsByPosition/ApplicationsByPosition.js"
+
+<ApplicationsByPosition />
+
+連絡をした方のポジション別の応募数です。
+
+- 同じ企業で複数人が応募したパターンがあるため、応募企業数より多くなっています
+- ポジションは企業によって固有な名前になっていることも多いため、ある程度の役割はまとめています
+- "チームリーダ"はエンジニアなどのチームリーダ的なポジションと書いた人です
+- "エンジニア"はエンジニアと書いた人です
+    - "チームリーダ"と"エンジニア"を分けてカウントしています
+
+## 応募企業のステージ
+
+import { ApplicationsByStage } from "./components/ApplicationsByStage/ApplicationsByStage.js"
+
+<ApplicationsByStage />
+
+非上場企業の場合はやや主観的な分類になりますが、分類は次の通りです。
+
+- 上場:
+    - 上場している株式会社
+- 子会社:
+    - 親会社は上場企業でその子会社となる非上場企業
+- シード：
+    - サービス・製品の構想はある
+    - プロトタイプを開発中
+- アーリー:
+    - サービス・製品がある
+    - ユーザーがいる
+    - 少人数のチームがある
+- ミドル:
+    - サービス・製品にユーザーがある程度いる
+    - 収益モデルの仮説が検証され始めている
+    - そこそこの人数のチームがある
+- レイター:
+    - 上場を検討中
+    - 組織が確立してきている
+
+この分類は次のURLを参考にしています。
+
+- [No Guts, No Growth. : ベンチャー企業の成長ステージとは何か](http://blog.livedoor.jp/cachaca/archives/37025979.html "No Guts, No Growth. : ベンチャー企業の成長ステージとは何か")
+    - 分類はこの記事をベースにしています
+- [Crunchbase](http://crunchbase.com/)
+    - 資金調達のデータや[ Glossary of Funding Types ](https://support.crunchbase.com/hc/en-us/articles/115010458467-Glossary-of-Funding-Types)などを参考しました
+    - おおよそ次のような対応で扱っています
+    - シリーズA = アーリー
+    - シリーズB = ミドル
+    - シリーズC = レイター
+
+## 応募企業の従業員数
+
+import { ApplicationsByEmployees } from "./components/ApplicationsByEmployees/ApplicationsByEmployees.js"
+
+<ApplicationsByEmployees />
+
+従業員数別の応募した企業数です。
+
+
+次のような分類になっています。
+
+```js
+const normalize従業員数 = (従業員数) => {
+    if (従業員数 <= 10) {
+        return "0-10";
+    } else if (従業員数 <= 50) {
+        return "11-50";
+    } else if (従業員数 <= 100) {
+        return "51-100";
+    } else if (従業員数 <= 250) {
+        return "101-250"
+    } else if (従業員数 <= 500) {
+        return "251-500";
+    } else if (従業員数 <= 1000) {
+        return "501-1000"
+    } else {
+        return "1000+"
+    }
+};
+```
+
+従業員数のデータは[Wantedly](http://wantedly.com/)に掲載されているものと企業サイトに掲載されているものを利用しました。
+
+## 設立年数
+
+import { ApplicationsByEstablishmentYears } from "./components/ApplicationsByEstablishmentYears/ApplicationsByEstablishmentYears.js"
+
+<ApplicationsByEstablishmentYears />
+
+設立年数別の応募した企業数です。
+
+次のような値にマッピングされていれます。
+
+```js
+const normalize設立年 = (設立年) => {
+    if (設立年 <= 1990) {
+        return "1900年-1990年";
+    } else if (設立年 <= 2000) {
+        return "1991年-2000年";
+    } else if (設立年 <= 2010) {
+        return "2001年-2010年";
+    }
+    return `${設立年}年`
+};
+```
+
+設立年数のデータは[Wantedly](http://wantedly.com/)に掲載されているものと企業サイトに掲載されているものを利用しました。
+
+----
+
+## 複合データ
+
+複合データとはここまでの情報を組み合わせたデータや少し読み方を変えたグラフです。
+
+### 応募方法がPublicかPrivateか
+
+import { ApplicationsWithPublicOrPrivate } from "./components/ApplicationsWithPublicOrPrivate/ApplicationsWithPublicOrPrivate.js"
+
+<ApplicationsWithPublicOrPrivate />
+
+応募方法がPublic(誰でも自由に閲覧できる場所でのやり取り)かPrivate(特定の人のみが閲覧できる場所でのやり取り)かの分類です。
+
+- Public: GitHub、Twitter Reply
+- Private: Bosyu、Twitter DM、Mail
+
+### 上場企業 or 非上場企業
+
+import { ApplicationsByListedOrUnlisted } from "./components/ApplicationsByListedOrUnlisted/ApplicationsByListedOrUnlisted.js"
+
+<ApplicationsByListedOrUnlisted />
+
+応募した企業が上場企業か非上場企業かの分類です。
+
+### 応募企業のステージと応募方法の対応関係
+
+import { ApplicationsByStageWithReferrer } from "./components/ApplicationsByStageWithReferrer/ApplicationsByStageWithReferrer.js"
+
+<ApplicationsByStageWithReferrer />
+
+応募企業のステージと応募方法の対応関係についてのグラフです。
+
+- 例） 上場企業が応募方法として"bosyu"を選んだ"応募数"といった対応関係を表しています
+
+### 応募者のポジションと応募方法の対応関係
+
+import { ApplicationsByStageWithPosition } from "./components/ApplicationsByStageWithPosition/ApplicationsByStageWithPosition.js"
+
+<ApplicationsByStageWithPosition />
+
+応募者のポジションとと応募方法の対応関係についてのグラフです。
+
+- 例） 応募者が"エンジニア"の場合に"bosyu"を選んだ"応募数"といった対応関係を表しています
+
+### 応募数/応募者のポジション/応募日
+
+import { ApplicationsByDateWithPosition } from "./components/ApplicationsByDateWithPosition/ApplicationsByDateWithPosition.js"
+
+<ApplicationsByDateWithPosition />
+
+日付ごとの応募数と応募者のポジションを積み上げグラフで表現したものです。
+
+### 応募数/応募方法/応募日
+
+import { ApplicationsByDateWithReferrer } from "./components/ApplicationsByDateWithReferrer/ApplicationsByDateWithReferrer.js"
+
+<ApplicationsByDateWithReferrer />
+
+日付ごとの応募数と応募方法を積み上げグラフで表現したものです。
+
+## まとめ
+
+- 合計の応募企業数は<TotalApplications />社
+- 有効な応募企業数は<ValidApplications />社
+- 応募数は初日が最も多い
+- 応募方法は多い順にbosyu、Twitter DM、Twitter Reply、GitHub Issue、Mail
+- 応募方法はPrivateな方法の方が多い
+- 応募者はエンジニアが最も多い
+- 応募企業は[HR](https://ja.wikipedia.org/wiki/%E4%BA%BA%E4%BA%8B%E5%8A%B4%E5%8B%99%E7%AE%A1%E7%90%86)カテゴリが最も多い
+- 応募企業は非上場企業の方が上場企業よりも多い
+- 応募企業の従業員数は0-100人の企業が半数以上

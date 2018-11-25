@@ -1,5 +1,7 @@
 # Open Job Application Letter [![Build Status](https://travis-ci.org/azu/open-job-letter.svg?branch=master)](https://travis-ci.org/azu/open-job-letter)
 
+**追記:このドキュメントは有効期限が切れています。応募は募集していません。**
+
 これは求職記事（Hire Meな記事）です。
 無関係な方はスルーしてください。
 
@@ -10,7 +12,9 @@
     - Twitter: [@azu_re](https://twitter.com/azu_re)
     - Mail: [azuciao@gmail.com](mailto:azuciao@gmail.com)
 - 公開: 2018年11月13日
-- 有効期限: 2018年12月5日
+- 有効期限: 2018年12月5日 
+
+**追記:このドキュメントは有効期限が切れています**
 
 ## Profile
 
@@ -259,8 +263,8 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 直接DMやメールをもらうと上手くハンドリングできなくなるため、
 次のどれかを通してから、あらためて[@azu_re](https://twitter.com/azu_re)からDMする形にしたいと思います。
 
-- :warning: 直接DMを行うのは避けていただけると幸いです。
-- :memo: 反応が早いと思われる順番で書いています。
+- :warning: 直接DM(TwitterのDM、メール)を行うのは避けてください
+- :memo: 反応が早いと思われる順番で書いています
 
 ### Twitter
 
@@ -278,7 +282,7 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 次のリポジトリに対してIssueを立てて連絡してください。
 
-- [新しいIssueを作成する](https://github.com/azu/open-job-letter/issues/new)
+- <del>[新しいIssueを作成する](https://github.com/azu/open-job-letter/issues/new)</del>
 
 ### [Bosyu](https://bosyu.me/)
 
@@ -289,13 +293,14 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 
 次のBosyuに対して連絡してください。
 
-- <https://bosyu.me/users/azu_re/wants/7395>
+- <del><https://bosyu.me/users/azu_re/wants/7395></del>
 
 ### :memo: 注意事項
 
-- [@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMを誰からも受け取れるようにしておく必要があります
+- 応募をTwitter DM、メールなどのDMで直接送った場合は無視します
+- 応募に関する返事は[@azu_re](https://twitter.com/azu_re)からのDMを受け取れるように、事前にDMを誰からも受け取れるようにしておく必要があります
     - [About Direct Messages](https://help.twitter.com/en/using-twitter/direct-messages#receive)
-    - Twitter以外にもメールやWantedlyのチャットなどでも可能なので、希望の手段をおしえてください
+    - 応募時に希望の手段を書いていただければ、Twitter DM以外にもメールやWantedlyのチャットなどでも対応可能です
 - 面識がない場合はどうしても慎重になるため、返信に数日以上かかる場合があります
 - 必ず返信するとは限らないことはご了承ください
 - その他の方法でもっとスムーズに情報交換できそうと思える手段がある場合は教えてください
@@ -308,6 +313,8 @@ OSSは幅広くやっているので[Activity](https://github.com/azu)を見る�
 - A. 税金や請求書の扱いなど大変そうだと思います
 - Q. なぜ求人サイトではなくオープンで？
 - A. 求人サイトと活動範囲(OSS系)があまり被らない層だと思ったため
+- Q. 海外は?
+- A. 特に意見がないです
 
 ## License
 
