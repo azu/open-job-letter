@@ -31,11 +31,11 @@ import { TotalApplications } from "./components/TotalApplications/TotalApplicati
 import { ValidApplications } from "./components/ValidApplications/ValidApplications.js"
 
 - 合計の応募企業数: <TotalApplications />社
-- 有効な応募企業数: <ValidApplications />社
+- 用意した連絡手段を利用した企業数: <ValidApplications />社
 
 同一の企業が複数の応募をした場合には、(ハッシュ化された)企業名でユニーク化して1と数えています。
 
-<q>有効な応募企業数</q>は[連絡手段](https://azu.github.io/open-job-letter/#%E9%80%A3%E7%B5%A1%E6%89%8B%E6%AE%B5)に記載した応募方法を利用した企業数です。
+<q>用意した応募方法を利用した企業数</q>は[連絡手段](https://azu.github.io/open-job-letter/#%E9%80%A3%E7%B5%A1%E6%89%8B%E6%AE%B5)に記載した応募方法を利用した企業数です。
 
 ## 応募方法
 
@@ -233,7 +233,7 @@ import { ApplicationsByStageWithPosition } from "./components/ApplicationsByStag
 
 <ApplicationsByStageWithPosition />
 
-応募者のポジションとと応募方法の対応関係についてのグラフです。
+応募者のポジションと応募方法の対応関係についてのグラフです。
 
 - 例） 応募者が"エンジニア"の場合に"bosyu"を選んだ"応募数"といった対応関係を表しています
 
@@ -256,7 +256,7 @@ import { ApplicationsByDateWithReferrer } from "./components/ApplicationsByDateW
 ## まとめ
 
 - 合計の応募企業数は<TotalApplications />社
-- 有効な応募企業数は<ValidApplications />社
+- 用意した連絡手段を利用した企業数は<ValidApplications />社
 - 応募数は初日が最も多い
 - 応募方法は多い順にbosyu、Twitter DM、Twitter Reply、GitHub Issue、Mail
 - 応募方法はPrivateな方法の方が多い
