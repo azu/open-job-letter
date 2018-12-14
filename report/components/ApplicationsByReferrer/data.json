@@ -1,0 +1,18 @@
+{
+    "labels": [
+        "その他",
+        "Mail",
+        "GitHub",
+        "Twitter Reply",
+        "Twitter DM",
+        "Bosyu"
+    ],
+    "values": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        13
+    ]
+}

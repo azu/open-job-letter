@@ -86,3 +86,6 @@ crashlytics-build.properties
 
 
 /lib
+/report/secret.json
+/.cache/
+/dist/

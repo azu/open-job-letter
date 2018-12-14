@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>azu/open-job-letter</title>
+    <title>Report: open-job-letter</title>
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="robots" content="noindex">
-    {{styles}}
     <!--
         意図しない外部流入を回避する目的
         http://b.hatena.ne.jp/help/entry/nocomment
@@ -16,7 +15,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2184335-20"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-2184335-20');
@@ -67,6 +70,20 @@
 
         .meta-buttons {
         }
+
+        .root-loading {
+            opacity: 0.7;
+            text-align: center;
+        }
+
+        /* モバイルでは幅いっぱいグラフを表示させる */
+        @media (max-width: 480px) {
+            .js-plotly-plot {
+                min-width: 400px;
+                margin-left: calc(((100vw - 100%) / 2) * -1);
+                margin-right: calc(((100vw - 100%) / 2) * -1);
+            }
+        }
     </style>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
@@ -98,9 +115,12 @@
 </header>
 <div class="container-wrapper">
     <article class="markdown-body">
-        {{body}}
+        <div id="root">
+            <h1 class="root-loading">Loading...</h1>
+        </div>
     </article>
 </div>
+<script src="./report.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js"
         integrity="sha256-sulJsGHNj4Kxq0cT7TRRa9K4RNljWjQaDLXGBRTbhUQ="
         crossorigin="anonymous"></script>
@@ -111,7 +131,9 @@
         icon: "#",
         class: "anchor-mark"
     };
-    anchors.add(".markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6");
+    window.onload = function() {
+        anchors.add(".markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6");
+    }
 </script>
 </body>
 
