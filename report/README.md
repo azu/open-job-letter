@@ -8,6 +8,6 @@
 
 report/ ディレクトリと以下に適応されるライセンス
 
-- mdx: CC BY 4.0 © azu
-- JavaScript: MIT © azu
+- 文章(md, mdx): CC BY 4.0 © azu
+- コード(JavaScript): MIT © azu
 - データ: `data.json`などのグラフのために出力しているデータは再利用や再配布など不可
