@@ -1,6 +1,12 @@
 # Open Job Application Letter [![Build Status](https://travis-ci.org/azu/open-job-letter.svg?branch=master)](https://travis-ci.org/azu/open-job-letter)
 
+----
+
 **追記:このドキュメントは有効期限が切れています。応募は募集していません。**
+
+結果のレポートは <https://azu.github.io/open-job-letter/report/> にて公開されています。
+
+----
 
 これは求職記事（Hire Meな記事）です。
 無関係な方はスルーしてください。
