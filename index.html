@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>azu/open-job-letter</title>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="robots" content="noindex">
+    <style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: #032f62;
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  color: #fafbfc;
+  background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.markdown-body .pl-c2::before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: #22863a;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: #24292e;
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: #24292e;
+}
+
+.markdown-body .pl-md {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+  color: #f6f8fa;
+  background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: #032f62;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+}
+
+.markdown-body strong {
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body .octicon {
+  vertical-align: text-bottom;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0 !important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px !important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px !important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px !important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px !important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px !important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+.markdown-body blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: 0.875em;
+}
+
+.markdown-body h6 {
+  font-size: 0.85em;
+  color: #6a737d;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: 0.25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+  color: #005cc5;
+  border-color: #005cc5;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+.markdown-body :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #0366d6;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+</style><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>body { margin: 40px; }</style>
+    <!--
+        意図しない外部流入を回避する目的
+        http://b.hatena.ne.jp/help/entry/nocomment
+     -->
+    <link rel="author" href="http://www.hatena.ne.jp/efcl/"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2184335-20"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-2184335-20');
+    </script>
+    <base target="_blank"/>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .repo-nav {
+            background-color: #fafbfc;
+            padding-bottom: 0;
+        }
+
+        .repo-nav h1 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .container-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 980px;
+            padding: 1.5em;
+        }
+
+
+        .meta-container {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            border-bottom: 1px solid #e1e4e8;
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .meta-repo {
+            color: #586069;
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 635px;
+        }
+
+        .meta-buttons {
+        }
+    </style>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+<header class="repo-nav">
+    <div class="container-wrapper meta-container">
+        <h1 class="meta-repo">
+            <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16"
+                 aria-hidden="true">
+                <path fill-rule="evenodd"
+                      d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path>
+            </svg>
+            <span class="author" itemprop="author"><a href="https://github.com/azu">azu</a></span>
+            <span class="path-divider">/</span>
+            <strong itemprop="name"><a href="https://github.com/azu/open-job-letter">open-job-letter </a> </strong>
+        </h1>
+        <div class="meta-buttons">
+            <a class="github-button" href="https://github.com/azu/open-job-letter/subscription" data-size="large"
+               data-show-count="true" aria-label="Watch azu/open-job-letter on GitHub">Watch</a>
+            <!--
+            <a class="github-button" href="https://github.com/azu/open-job-letter" data-size="large"
+               data-show-count="true" aria-label="Star azu/open-job-letter on GitHub">Star</a>
+            -->
+            <a class="github-button" href="https://github.com/azu/open-job-letter/fork" data-size="large"
+               data-show-count="true" aria-label="Fork azu/open-job-letter on GitHub">Fork</a>
+        </div>
+    </div>
+</header>
+<div class="container-wrapper">
+    <article class="markdown-body">
+        <h1 id="open-job-application-letter-build-statushttpstravis-ciorgazuopen-job-lettersvgbranchmasterhttpstravis-ciorgazuopen-job-letter">Open Job Application Letter <a href="https://travis-ci.org/azu/open-job-letter"><img src="https://travis-ci.org/azu/open-job-letter.svg?branch=master" alt="Build Status" /></a></h1>
+<hr />
+<p><strong>追記:このドキュメントは有効期限が切れています。応募は募集していません。</strong></p>
+<p>結果のレポートは <a href="https://azu.github.io/open-job-letter/report/">https://azu.github.io/open-job-letter/report/</a> にて公開されています。</p>
+<hr />
+<p>これは求職記事（Hire Meな記事）です。<br />
+無関係な方はスルーしてください。</p>
+<h2 id="ステータス">ステータス</h2>
+<ul>
+<li>公開者: azu<ul>
+<li>GitHub: <a href="https://github.com/azu">@azu</a></li>
+<li>Twitter: <a href="https://twitter.com/azu_re">@azu_re</a></li>
+<li>Mail: <a href="mailto:azuciao@gmail.com">azuciao@gmail.com</a></li></ul></li>
+<li>公開: 2018年11月13日</li>
+<li>有効期限: 2018年12月5日 </li>
+</ul>
+<p><strong>追記:このドキュメントは有効期限が切れています</strong></p>
+<h2 id="profile">Profile</h2>
+<p>ウェブではazu(アズ)という名前で活動しています。</p>
+<h3 id="仕事的な活動">仕事的な活動</h3>
+<p>仕事では、ウェブサービスの<a href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89">フロントエンド</a>と呼ばれる領域の設計/開発を行うことが多いです。<br />
+開発では既存の仕様との調整をしながら設計が必要となる大規模なリニューアルや特定の問題を抱えているプロジェクトの問題解決という形で参加することが多いです。リニューアルなどでは、サービスのドメインオーナーと話し合いながらどのように実現するかの設計から実装まで行っていました。</p>
+<p>また、フロントエンドの開発環境を改善する<a href="https://giamir.com/frontendops">FrontendOps</a>と呼ばれる領域に関わっていることも多いです。<br />
+具体的には、リポジトリ構造を整理するためにmonorepoの検討から導入、CI/CDの環境を構築しての自動化などを行いました。<br />
+これに加えて開発の補助するライブラリやツールの作成、依存ライブラリの整備、パフォーマンスの計測の自動化や改善などを行っていました。</p>
+<p>課題や目的がある特定のチームに入り、開発や改善を行い、一段落したら別のチームへ移動するといったサイクルで活動していました（大体半年から1年半程度のサイクル）。<br />
+また、定期的に誰でも参加できる「JavaScript相談会」を開催し、業務を含めた技術的な問題を相談できる場所を設けるなど社内技術コミュニティもやっていました。これは特定のチームや特定サービスではなく会社全体のフロントエンドを改善するという意識から行っていた活動です。</p>
+<!-- textlint-disable -->
+<p>次の図でフロントエンドに関わる範囲で仕事でメインとしてやっていたことを挙げておきます。<br />
+具体的なライブラリなどは省いたり、思いついたものを入れただけなので雰囲気です。</p>
+<p><a href="./resources/img/group.png"><img src="./resources/img/group.png" alt="仕事メインとしてSPA,Accessibility,CSS,PWA,CSS Preprocessors,Browser,Node.js,Lint Tools,SSR,Build Tools,Package Managers,HTML,iOSアプリ開発,Testing,DOM API,DDD,TypeScript,JavaScript,ECMAScript,CI/CD,Objective-C,Performance,monorepo,BFF,CSS アーキテクチャ,フレームワーク作成/利用,JavaScriptアーキテクチャ,コンポーネント設計。仕事メイン外としてUXデザイン,UIデザイン。趣味の範囲としてWeb Security,Desktopアプリ,GraphQL" /></a></p>
+<!-- textlint-enable -->
+<p>これらの仕事に関しては別のドキュメントでまとめたものがあるため、詳細が必要な方は<a href="#連絡手段">連絡手段</a>から連絡した後のやり取りの中できいてみください。</p>
+<h3 id="個人的な活動">個人的な活動</h3>
+<p>個人では、<a href="https://github.com/azu/promises-book">JavaScript Promiseの本</a>や<a href="https://github.com/asciidwango/js-primer">js-primer</a>というJavaScriptの入門書を書いたりしています。また<a href="https://jser.info/">JSer.info</a>というJavaScriptの情報サイトの運用や<a href="https://textlint.github.io/">textlint</a>という自然言語の校正補助ツールの開発などを行っています。</p>
+<p>OSSは幅広くやっているので<a href="https://github.com/azu">Activity</a>を見るのがわかりやすいですが、<a href="https://github.com/video-dev/hls.js">hls.js</a>や<a href="https://github.com/power-assert-js">power-assert-js</a>のコミッターなどをやっています。</p>
+<p>他の個人的な活動は次を参照してください。</p>
+<ul>
+<li>ブログ: <a href="https://efcl.info/">Web Scratch</a></li>
+<li><a href="https://efcl.info/about/presentations.html">勉強会での発表履歴</a></li>
+<li><a href="http://efcl.info/surl/github-activity/">コミットしてるGitHub Organization</a></li>
+<li><a href="http://azu.github.io/slide/2016/jser5years/sc22-ecmascript-ahodc.html">SC22 ECMAScript Ad hoc委員会</a></li>
+</ul>
+<h2 id="求職記事の目的">求職記事の目的</h2>
+<p>この求職記事の目的は次の通りです。</p>
+<ul>
+<li>求人記事が膨大なため、タイトルだけではよくわからず見逃している企業が多いと思った</li>
+<li>スカウトでは、自身の目的と一致しないことも多いためこの"求職記事"で指針を明確にしようと思った</li>
+<li>OSS活動のほうが知られているので、求職記事もオープンでやったほうが効率的だと思った</li>
+</ul>
+<p>能動的に求人記事を探す場合には<a href="https://www.wantedly.com/">Wantedly</a>が掲載数の多いサービスだと思います。<br />
+しかし、Wantedlyでは<a href="https://www.wantedly.com/?type=mixed&page=1&occupation_types%5B%5D=engineer&hiring_types%5B%5D=mid_career&keywords%5B%5D=%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89">フロントエンド</a>の求人だけでも2000件以上あります。<br />
+このうち半分以上は眺めましたが、求人タイトルだけではどのような事業や課題を持っているかが把握できない場合も多く、中身をすべて見るのは時間的に難しいと考え諦めました。</p>
+<p>「企業を見ているポイント」で後述しますが、使っている技術よりもその企業がもつ課題や成長性(企業、個人どちらも含む)などを重要視しています。多くの求人記事のタイトルは、使っている技術や事業のジャンル程度の情報しかないことが多いです。<br />
+そのため、<a href="https://www.wantedly.com/">Wantedly</a>や<a href="https://jobs.forkwell.com/">Forkwell Jobs</a>のような求人記事からマッチする企業を見つけるのは難しかったです。</p>
+<p>一方で、受動的に求職する場合には<a href="https://job-draft.jp/">転職ドラフト</a>や各種サービスのスカウト機能があります。<br />
+しかし、この場合もサービスに登録している求職者数や企業側のコストの問題から限界があります。<br />
+また、機械的に送られたものなど目的と一致しないスカウトがくることもありました。</p>
+<p>自身がOSSなどPublicな場での活動が多いことを考慮すると、求職記事もPublicで書いたほうがマッチしやすいと考えたのがこのドキュメントを公開した理由です。この求職記事ではできる範囲で求職の目的や企業に期待することを公開しています。</p>
+<p>このドキュメントを読んで興味をもった方は<a href="#連絡手段">連絡手段</a>から連絡してください。</p>
+<p>仕事や仕事で行った具体的なことについてはPublicなウェブに明記しない方針です。<br />
+そのため、それらの詳細について知りたい場合は指定の<a href="#連絡手段">連絡手段</a>を取って面談などで聞いてください。</p>
+<p>このドキュメントは有効期限が更新されない限り、指定した有効期限で無効となります。</p>
+<h2 id="転職活動の目的">転職活動の目的</h2>
+<ul>
+<li>入社時に宣言した目的が一段落した</li>
+<li>B2Cサービス以外にも興味が出てきた</li>
+</ul>
+<p>転職を考えるようになったのは、入社時に話した目的が一段落したためです。このときに、また別の新しいことにも挑戦してみたいと思ったのが直接的なきっかけです。</p>
+<p>今まではB2Cサービスに関わることが多かったため、B2Bなど他の領域にある課題の解決に挑戦したいと考えるようになりました。<br />
+この背景には、近年のB2Bサービスはちゃんとデザインされており活発に開発されているものが増えたという印象があり、B2Cのサービスに限らない仕事もやってみたいと思いました。B2BにはB2B特有の課題などがあり、また新しいことに挑戦できると思ったためです。</p>
+<p>根底には課題をテクノロジーで解決して便利になりたいという思いがあるため、B2Bサービスに限りませんが、新しい課題に取り組みたいと考えるようになったのが転職活動のきっかけです。<br />
+（「テクノロジーで」としているのは、より少ない資源で大きな成果になる可能性が高いからです。技術以外で解決できる問題も多いですが、競合との差はテクノロジーとなる可能性が高いと考えているためです。）</p>
+<p>転職活動は既に開始済みであるため、次のセクションではそれらを踏まえた自己紹介や企業を見ているポイントについて書いていきます。また、既に退職済みであるため、このドキュメントは求職記事としています。</p>
+<h2 id="arrow_up-やっていて苦ではないこと">⬆️ やっていて苦ではないこと</h2>
+<ul>
+<li>しらべること</li>
+<li>新規開発と設計を考えること<ul>
+<li><a href="https://github.com/azu/large-scale-javascript">large-scale-javascript</a></li>
+<li><a href="http://azu.github.io/slide/2016/react-meetup/large-scale-javascript.html">複雑なJavaScriptアプリケーションを考えながら作る話</a></li></ul></li>
+<li>運用を改善すること</li>
+<li>手数を少なくするための仕組みをつくること<ul>
+<li><a href="http://azu.github.io/slide/2018/roppongijs/webpagetest-performance.html">Webpagetestから始める継続的パフォーマンス改善</a></li></ul></li>
+<li>再現性を作ること</li>
+<li>ドキュメント/メモを公開すること<ul>
+<li>他の人が再現できるようにどのような過程をたどったかのドキュメントを残す</li>
+<li>相談会も透明性のために議事録を取って公開する</li>
+<li>アーキテクチャの意思決定を<a href="http://tbpgr.hatenablog.com/entry/2017/02/22/080000">Architecture Decision Records</a>で残す。自分にドメイン知識の依存が残ることを嫌うため、それを避けるために積極的に過程の記録を書いている</li>
+<li>障害など突発的な修正を入れる場合にも、該当のPull Requestに問題の原因や修正方法についての解説を勝手に追加していることが多い。後から類似する問題を検索できるようにするため</li></ul></li>
+<li>意見に対してすばやく動くものを返す<ul>
+<li>仕事、OSSどちらにおいても意見などに対してはすばやく動くものを作って反応を返す。（目安として30分以内に何らかの手段で実現できるならすぐ実装する）</li>
+<li>これは短時間で動くものもらった場合は、その後の流れがスムーズ（より具体的）になるという経験的な結果があるからそうしている</li>
+<li>短時間で話を返すだけだったり、時間が経ってから動くものを返した場合は、結果的に無駄になる時間が増えるという印象からきている行動です</li></ul></li>
+</ul>
+<h2 id="arrow_down-苦手なこと">⬇️ 苦手なこと</h2>
+<ul>
+<li>停滞すること<ul>
+<li>自身の意思に反して開発が停滞することに苦手意識があります</li>
+<li>たとえば、ある機能を入れるためにコードフリーズした状態が苦手です</li>
+<li>コードフリーズの原因がデプロイのワークフローならそちらを修正したくなります</li></ul></li>
+<li>プライバシーやセキュリティを尊重しない行動</li>
+<li>意思に反する時間外労働<ul>
+<li>アラート対応は苦手意識があります</li>
+<li>そのためインフラ系は積極的にはやりません</li></ul></li>
+</ul>
+<h2 id="どうなりたいか">どうなりたいか</h2>
+<p>作りたいものは個人で作ってしまうことが多いため、仕事として何かを作ることに対するとくべつ強い意思はありません。（もちろん、自分が実際に触れるものほど、作ることに対するモチベーションは高いです）<br />
+そのため、会社選びは自分がどういう状態になりたいかやそのときの興味の影響が大きいです。</p>
+<p>究極的にはあらゆる問題を解決してより便利になることが目標です。<br />
+そのために成長できる会社やチームがあり、停滞せず新しい課題に常に取り組める環境を求めています。</p>
+<p>また、自分自身が特定のドメインに詳しくなり単一障害点となることよりも、<br />
+特定のドメインに取り組んでいる人を支援して課題を解決する手伝いをしたいという思いがあります。</p>
+<h2 id="興味があるポイント">興味があるポイント</h2>
+<p>次にドキュメントの公開時点で興味があったポイントを書き出しています。<br />
+既にいくつかの企業を調べ訪問しましたが、次のポイントのいずれかが詳しく調べる起点となっていました。</p>
+<p>ただし、知らなかったことでも興味を持てればそこから追求するタイプです。<br />
+そのため、次のポイントは参考程度です。このドキュメントの目的の8割ぐらいは見ていなかった企業と接点を持つために書いています。<br />
+（必須条件ではなく、興味を刺激するポイントに過ぎません）</p>
+<ul>
+<li>B2B<ul>
+<li>転職活動の目的で書いた理由です</li>
+<li>📝 B2Cの企業はそこまで調べてないだけで、もともとやっていたので興味はもっています</li></ul></li>
+<li>拡大期の企業<ul>
+<li>次の2つは体験したことがあり、間となる拡大期の企業を経験したことないため</li>
+<li>スタートアップ: 少数〜拡大する直前（シリーズA）</li>
+<li>大企業: 大人数での開発</li></ul></li>
+<li>良いデザイン<ul>
+<li>ある課題を解決するためには機能だけではなくデザイン（UI、行動、プライバシー、セキュリティなどいろいろ意味のデザイン）も大切と考えているため</li>
+<li>よいUI、UXを持つためにデザイナーがちゃんと社内にいるか</li>
+<li>デザイナーと実装者などでどのようにコミュニケーションをとっているか</li>
+<li>デザイナーなどがデザインの仕組み化について考えているか<ul>
+<li>これはデザインツールやコンポーネント志向などデザインの考え方がいろいろ変わってる中で、その変化にどのように対応していこうとしているか</li>
+<li><a href="https://speakerdeck.com/ts020/vuefes">https://speakerdeck.com/ts020/vuefes</a> はこの話に近い話題</li></ul></li>
+<li>フィードバックサイクルやその単位が会社のサイズに合っているか<ul>
+<li>一度作ったデザインを変えるときにどうしているか</li></ul></li></ul></li>
+<li>課題<ul>
+<li>課題をもっているか</li>
+<li>その課題に対してどのようなテクノロジーで解決しようとしているか</li></ul></li>
+<li>裁量<ul>
+<li>予算だけではなく裁量があるか</li>
+<li>またその裁量をどのように仕組み化しているか</li>
+<li>自由な取り組み、発言などを安全に行える環境をどのように作っているか</li>
+<li>これは停滞のボトルネックが裁量にあることが多いと考えているからかもしれません</li></ul></li>
+<li>プライバシー<ul>
+<li><a href="https://eugdpr.org/">GDPR</a>対応をどうしているか</li>
+<li>Privacy by Designの考え方があるか</li></ul></li>
+<li>リモートワーク<ul>
+<li>小規模の会社だとリモートワークは多いが、その会社が大きくなってきたときにリモートワークの仕組みを維持する方法があるかが個人的に気になっている</li></ul></li>
+</ul>
+<h2 id="企業を見ているポイント">企業を見ているポイント</h2>
+<ul>
+<li>市場</li>
+<li>事業</li>
+<li>競合</li>
+<li>チーム/人</li>
+<li>テクノロジー</li>
+<li>透明性</li>
+</ul>
+<p>その企業がどのような市場をターゲットにして事業を展開しているかなど、事業としてうまく行くかどうかを見ています。また、その市場で競合となる企業はどの程度いるのか、その市場を独占できるような差があるのかを見ています。これは企業の成長性をみるためで、企業に成長性があると個人も成長する確率が高くなると考えているためです。</p>
+<p>また、その事業に対してどのようなチームや人が関わっているのか、エンジニアだけではなくちゃんとデザイナーやセールスなどがいるのかは見ています。<br />
+作るだけではなく届けるためのチームができているかを見るためです。</p>
+<p>訪問した企業と話をしていると企業が提供するサービス、チーム、文化の話をしていることが多いです。<br />
+どのような技術を使っているかは気にはしていますが、それ自体を判断ポイントにはしない傾向があります。<br />
+しかしながら、課題に対してテクノロジーで解決することに挑んでいるかは常に気にしています。</p>
+<p>一方で、企業として情報をどれだけ一般に公開しているかは、調べる上でも影響するため気にしています。<br />
+これは社内でも同じで、社内でもどれだけ透明性のある情報の流れがあるかを気にしています。基本的には情報が社員に対してもオープンであることが好ましいと考えているため、情報の透明性を気にしています。<br />
+社外に対しても、公開して問題ない情報は公開していることを好んでいます。</p>
+<p>これに加えて、興味をもてるかやワクワクするかという感性的なものが見ているポイントです。</p>
+<h2 id="希望する雇用形態">希望する雇用形態</h2>
+<ul>
+<li>正社員</li>
+</ul>
+<h2 id="希望する業種・職種">希望する業種・職種</h2>
+<ul>
+<li>業種: 特になし</li>
+<li>職種: エンジニア/プログラマ</li>
+<li>自社開発、自社サービス</li>
+</ul>
+<h2 id="希望しない業種">希望しない業種</h2>
+<ul>
+<li>業種: ゲーム、広告、アダルト、人材</li>
+<li>受託開発</li>
+</ul>
+<p>受託開発になんとなく苦手意識があります。</p>
+<h2 id="希望する勤務地">希望する勤務地</h2>
+<ul>
+<li>東京周辺、リモート</li>
+</ul>
+<p>📝 Note: リモートワークは上手くスケールできるかに興味があります。</p>
+<h2 id="希望する年収">希望する年収</h2>
+<ul>
+<li>800万〜</li>
+</ul>
+<p>いくつかのオファーなどから考えて下限を800万程度に設定するのが適当だと考えています。</p>
+<h2 id="連絡時に期待すること">連絡時に期待すること</h2>
+<ul>
+<li>できるだけ明確な情報と目的をもって連絡いただくこと</li>
+</ul>
+<p>「企業を見ているポイント」やその企業が行っている専門領域を事前に調べてから話を聞きに行っています。<br />
+具体的には求人ページ、サイト、ブログ、人、登記簿謄本やIR、その分野の専門書、提供しているサービスを実際に利用したり、そのサービスのターゲットの人に話しを聞きに行くということをしています。</p>
+<p>これは話を聞きに行くときのスタンスが「その分野のプロに話を聞ける機会」や「カルチャーマッチの確認する機会」という認識のためです。<br />
+そのため、知識的な差で話す時間を無駄に使ってしまうのを避ける傾向があります。<br />
+また、単に自分から話題を振るのが苦手なので、事前に話題を集める意味もあります。</p>
+<p>事前調査に時間を使うことが多いため「とりあえず」で話を聞きに行くのが難しいことをご了承ください。<br />
+また連絡する際には、できるだけ取り組みや課題に対する明確な情報とマッチ理由など添えていただけると幸いです。<br />
+もしくは、もっと気軽な話ができるような形態でやり取りを開始するのが望ましいと考えています。</p>
+<p>次のページに、以前DMが来たが答えるのが難しいと感じたいくつかの例を書いています。</p>
+<ul>
+<li><a href="https://github.com/azu/open-job-letter/tree/master/case-study/ignore-message.md">case-study/ignore-message.md</a></li>
+</ul>
+<p>また簡単なチェックリストを置いておきます。</p>
+<ul>
+<li><a href="https://github.com/azu/open-job-letter/tree/master/CHECKLIST.md">CHECKLIST.md</a></li>
+</ul>
+<h2 id="連絡手段">連絡手段</h2>
+<p>興味がある方は次の手段で連絡をとってみてください。</p>
+<p>直接DMやメールをもらうと上手くハンドリングできなくなるため、<br />
+次のどれかを通してから、あらためて<a href="https://twitter.com/azu_re">@azu_re</a>からDMする形にしたいと思います。</p>
+<ul>
+<li>⚠️ 直接DM(TwitterのDM、メール)を行うのは避けてください</li>
+<li>📝 反応が早いと思われる順番で書いています</li>
+</ul>
+<h3 id="twitter">Twitter</h3>
+<ul>
+<li>Publicな範囲で話ができる</li>
+</ul>
+<p>次のTweetなどに対してリプライで<a href="https://twitter.com/azu_re">@azu_re</a>へ連絡してください。</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">[PR] 現在求職活動中です。<br>普段OSSなどPublicな活動が多いため、求職記事をPublicに公開しました。<br>詳細は次のページにまとめてあります。<br><br>- <a href="https://t.co/mKRflxJoic">https://t.co/mKRflxJoic</a><br><br>詳細を読んで興味がでた方は、ドキュメントに書いてある連絡手段やリプライから、DMでのやりとりに移行できると嬉しいです。</p>&mdash; azu (@azu_re) <a href="https://twitter.com/azu_re/status/1062247833913315328?ref_src=twsrc%5Etfw">November 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="github-issues">GitHub Issues</h3>
+<ul>
+<li>Publicな範囲で話ができる</li>
+</ul>
+<p>次のリポジトリに対してIssueを立てて連絡してください。</p>
+<ul>
+<li><del><a href="https://github.com/azu/open-job-letter/issues/new">新しいIssueを作成する</a></del></li>
+</ul>
+<h3 id="bosyuhttpsbosyume"><a href="https://bosyu.me/">Bosyu</a></h3>
+<ul>
+<li>非公開で連絡ができる(Twitterでのログインが必要)</li>
+<li>DMの送信依頼を非公開で行えるイメージです</li>
+<li>使い方: <a href="https://blog.tsubotax.com/n/n612d8ba662d7">SNSを使ってカンタンに募集ができるサービスbosyuをリリースしました</a></li>
+<li>⚠️ 注意: Bosyuには文字数制限があるため、非公開なgistなどのスニペットサービスを併用するとよさそうです</li>
+</ul>
+<p>次のBosyuに対して連絡してください。</p>
+<ul>
+<li><del><a href="https://bosyu.me/users/azu_re/wants/7395">https://bosyu.me/users/azu_re/wants/7395</a></del></li>
+</ul>
+<h3 id="memo-注意事項">📝 注意事項</h3>
+<ul>
+<li>応募をTwitter DM、メールなどのDMで直接送った場合は無視します</li>
+<li>応募に関する返事は<a href="https://twitter.com/azu_re">@azu_re</a>からのDMを受け取れるように、事前にDMを誰からも受け取れるようにしておく必要があります<ul>
+<li><a href="https://help.twitter.com/en/using-twitter/direct-messages#receive">About Direct Messages</a></li>
+<li>応募時に希望の手段を書いていただければ、Twitter DM以外にもメールやWantedlyのチャットなどでも対応可能です</li></ul></li>
+<li>面識がない場合はどうしても慎重になるため、返信に数日以上かかる場合があります</li>
+<li>必ず返信するとは限らないことはご了承ください</li>
+<li>その他の方法でもっとスムーズに情報交換できそうと思える手段がある場合は教えてください</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<p><a href="https://github.com/azu/open-job-letter/issues/new">新しいIssueを作成して質問する</a></p>
+<ul>
+<li>Q. フリーランスではだめなの？</li>
+<li>A. 税金や請求書の扱いなど大変そうだと思います</li>
+<li>Q. なぜ求人サイトではなくオープンで？</li>
+<li>A. 求人サイトと活動範囲(OSS系)があまり被らない層だと思ったため</li>
+<li>Q. 海外は?</li>
+<li>A. 特に意見がないです</li>
+</ul>
+<h2 id="license">License</h2>
+<p>CC BY 4.0 © azu</p>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="http://tbpgr.hatenablog.com/entry/2018/10/21/230327">【転職希望】組織づくりに関わる仕事求む。てぃーびーの転職希望エントリ - Tbpgr Blog</a></li>
+</ul>
+    </article>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js"
+        integrity="sha256-sulJsGHNj4Kxq0cT7TRRa9K4RNljWjQaDLXGBRTbhUQ="
+        crossorigin="anonymous"></script>
+<script>
+    anchors.options = {
+        placement: "left",
+        visible: "always",
+        icon: "#",
+        class: "anchor-mark"
+    };
+    anchors.add(".markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6");
+</script>
+</body>
+
+</html>
